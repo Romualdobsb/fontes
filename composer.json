@@ -1,0 +1,17 @@
+{
+    "name": "romualdo/organizacao",
+    "authors": [
+        {
+            "name": "Romualdo Rodrigues",
+            "email": "romualdo.a.rodrigues@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "monolog/monolog": "^1.18",
+        "wixel/gump": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Funcionário</title>
+</head>
+<body>
+    <br>
+    <strong>FUNCIONÁRIOS</strong>
+    <br>
+    <br>
+    <table border="1">
+        <th>ID</th>
+        <th>NOME</th>
+        <th>E-MAIL</th>
+
+        <?php foreach($dadosPessoa as $k=>$dados):?>
+        <tr>
+            <td><?php echo $dados['id']; ?></td>
+            <td><?php echo $dados['nome']; ?></td>
+            <td><?php echo $dados['email']; ?></td>
+        </tr>
+        <?php endforeach;?>
+    </table>
+</body>
+</html>
